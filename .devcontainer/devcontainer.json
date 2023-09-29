@@ -1,0 +1,22 @@
+{
+    "name": "C++",
+    "image": "mcr.microsoft.com/devcontainers/cpp:latest",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "ms-vscode.cpptools-extension-pack",
+                "ms-vscode.makefile-tools",
+                "github.vscode-github-actions",
+                "tyriar.sort-lines"
+            ]
+        }
+    },
+    "mounts": [
+        {
+            "source": "lfs",
+            "target": "/mnt/lfs",
+            "type": "volume"
+        }
+    ]
+}
